@@ -1,16 +1,16 @@
 <?php
 /**
- * @link https://github.com/yiimaker/yii2-email-templates
+ * @link https://github.com/cannycookie/yii2-email-templates
  * @copyright Copyright (c) 2017-2018 Yii Maker
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\email\templates\tests\unit;
+namespace cannycookie\email\templates\tests\unit;
 
 use Yii;
-use ymaker\email\templates\Module;
-use ymaker\email\templates\repositories\EmailTemplatesRepository;
-use ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface;
+use cannycookie\email\templates\Module;
+use cannycookie\email\templates\repositories\EmailTemplatesRepository;
+use cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface;
 use motion\i18n\LanguageProviderInterface;
 
 /**

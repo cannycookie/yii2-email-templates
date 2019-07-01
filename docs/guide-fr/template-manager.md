@@ -7,16 +7,16 @@ Le manager du modèle d’email
 // bootstrap.php
 
 \Yii::$container->set(
-    \ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface::class,
-    \ymaker\email\templates\repositories\EmailTemplatesRepository::class
+    \cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface::class,
+    \cannycookie\email\templates\repositories\EmailTemplatesRepository::class
 );
 
 // or config/main.php
 `container` => [
     'singletons' => [
         // ...
-        \ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface::class =>
-            \ymaker\email\templates\repositories\EmailTemplatesRepository::class,
+        \cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface::class =>
+            \cannycookie\email\templates\repositories\EmailTemplatesRepository::class,
     ],
 ],
 ```

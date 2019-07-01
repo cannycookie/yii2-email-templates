@@ -1,16 +1,16 @@
 <?php
 /**
- * @link https://github.com/yiimaker/yii2-email-templates
+ * @link https://github.com/cannycookie/yii2-email-templates
  * @copyright Copyright (c) 2017-2018 Yii Maker
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\email\templates\tests\unit\models;
+namespace cannycookie\email\templates\tests\unit\models;
 
-use ymaker\email\templates\tests\unit\DbTestCase;
-use ymaker\email\templates\entities\EmailTemplateTranslation as Entity;
-use ymaker\email\templates\models\EmailTemplate;
-use ymaker\email\templates\tests\fixtures\EmailTemplateTranslationFixture;
+use cannycookie\email\templates\tests\unit\DbTestCase;
+use cannycookie\email\templates\entities\EmailTemplateTranslation as Entity;
+use cannycookie\email\templates\models\EmailTemplate;
+use cannycookie\email\templates\tests\fixtures\EmailTemplateTranslationFixture;
 
 /**
  * Test case for email template model.

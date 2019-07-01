@@ -8,13 +8,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-$ composer require yiimaker/yii2-email-templates
+$ composer require cannycookie/yii2-email-templates
 ```
 
 or add
 
 ```
-"yiimaker/yii2-email-templates": "~4.1"
+"cannycookie/yii2-email-templates": "~4.1"
 ````
 
 to the `require` section of your `composer.json`.
@@ -31,7 +31,7 @@ to the `require` section of your `composer.json`.
         'class' => yii\console\controllers\MigrateController::class,
         'migrationNamespaces' => [
            // ...
-           'ymaker\email\templates\migrations',
+           'cannycookie\email\templates\migrations',
         ],
     ],
 ],
@@ -45,7 +45,7 @@ To use this extension, simply add the following code in your application configu
 'modules' => [
     // ...
     'email-templates' => [
-        'class' => \ymaker\email\templates\Module::class,
+        'class' => \cannycookie\email\templates\Module::class,
         'languageProvider' => [
             'class' => \motion\i18n\ConfigLanguageProvider::class,
             'languages' => [
@@ -70,7 +70,7 @@ To use this extension, simply add the following code in your application configu
 'components' => [
     // ...
     'templateManager' => [
-        'class' => \ymaker\email\templates\components\TemplateManager::class,
+        'class' => \cannycookie\email\templates\components\TemplateManager::class,
     ],
 ]
 ```

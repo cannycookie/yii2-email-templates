@@ -11,16 +11,16 @@ Vous pouvez utiliser le comportement du modèle d’email pour l’adjonction du
 // bootstrap.php
 
 \Yii::$container->set(
-    \ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface::class,
-    \ymaker\email\templates\repositories\EmailTemplatesRepository::class
+    \cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface::class,
+    \cannycookie\email\templates\repositories\EmailTemplatesRepository::class
 );
 
 // or config/main.php
 `container` => [
     'singletons' => [
         // ...
-        \ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface::class =>
-            \ymaker\email\templates\repositories\EmailTemplatesRepository::class,
+        \cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface::class =>
+            \cannycookie\email\templates\repositories\EmailTemplatesRepository::class,
     ],
 ],
 ```
@@ -32,7 +32,7 @@ public function behaviours()
 {
     return [
         // ...
-        'emailTemplate' => \ymaker\email\templates\behaviors\EmailTemplateBehavior::class,
+        'emailTemplate' => \cannycookie\email\templates\behaviors\EmailTemplateBehavior::class,
     ];
 }
 ```
@@ -65,11 +65,11 @@ public function behaviours()
     return [
         // ...
         'emailTemplateWelcome' => [
-            'class' => \ymaker\email\templates\behaviors\EmailTemplateBehavior::class,
+            'class' => \cannycookie\email\templates\behaviors\EmailTemplateBehavior::class,
             'key' => 'welcome', // Le clé unique du modèle pour le modèle actuel
         ],
         'emailTemplateBye' => [
-            'class' => \ymaker\email\templates\behaviors\EmailTemplateBehavior::class,
+            'class' => \cannycookie\email\templates\behaviors\EmailTemplateBehavior::class,
             'key' => 'bue', // Le clé unique du modèle pour le modèle actuel
         ],
     ];

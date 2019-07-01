@@ -1,11 +1,11 @@
 <?php
 /**
- * @link https://github.com/yiimaker/yii2-email-templates
+ * @link https://github.com/cannycookie/yii2-email-templates
  * @copyright Copyright (c) 2017-2018 Yii Maker
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\email\templates\tests\unit;
+namespace cannycookie\email\templates\tests\unit;
 
 use yii\test\FixtureTrait;
 

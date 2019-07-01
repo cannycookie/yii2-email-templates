@@ -50,5 +50,5 @@ Database language provider example:
 
 It is not obligatory property that is used in controller to work with email template model.
 
-You can use default email template repository `\ymaker\email\templates\repositories\EmailTemplatesRepository`
-or implement another repository, for this you should implement a basic interface `\ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface`.
+You can use default email template repository `\cannycookie\email\templates\repositories\EmailTemplatesRepository`
+or implement another repository, for this you should implement a basic interface `\cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface`.

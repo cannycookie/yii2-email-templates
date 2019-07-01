@@ -1,15 +1,15 @@
 <?php
 /**
- * @link https://github.com/yiimaker/yii2-email-templates
+ * @link https://github.com/cannycookie/yii2-email-templates
  * @copyright Copyright (c) 2017-2018 Yii Maker
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\email\templates\tests\unit\gii;
+namespace cannycookie\email\templates\tests\unit\gii;
 
 use Yii;
-use ymaker\email\templates\gii\Generator;
-use ymaker\email\templates\tests\unit\TestCase;
+use cannycookie\email\templates\gii\Generator;
+use cannycookie\email\templates\tests\unit\TestCase;
 
 /**
  * Test case for Gii generator.

@@ -1,20 +1,20 @@
 <?php
 /**
- * @link https://github.com/yiimaker/yii2-email-templates
+ * @link https://github.com/cannycookie/yii2-email-templates
  * @copyright Copyright (c) 2017-2018 Yii Maker
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\email\templates\tests\unit\behaviors;
+namespace cannycookie\email\templates\tests\unit\behaviors;
 
 use yii\helpers\Json;
-use ymaker\email\templates\behaviors\EmailTemplateBehavior;
-use ymaker\email\templates\entities\EmailTemplate;
-use ymaker\email\templates\entities\EmailTemplateTranslation;
-use ymaker\email\templates\repositories\EmailTemplatesRepository;
-use ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface;
-use ymaker\email\templates\tests\mocks\DemoActiveRecord;
-use ymaker\email\templates\tests\unit\TestCase;
+use cannycookie\email\templates\behaviors\EmailTemplateBehavior;
+use cannycookie\email\templates\entities\EmailTemplate;
+use cannycookie\email\templates\entities\EmailTemplateTranslation;
+use cannycookie\email\templates\repositories\EmailTemplatesRepository;
+use cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface;
+use cannycookie\email\templates\tests\mocks\DemoActiveRecord;
+use cannycookie\email\templates\tests\unit\TestCase;
 
 /**
  * Test case for email template behavior.

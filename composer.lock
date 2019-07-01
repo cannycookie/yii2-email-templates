@@ -271,7 +271,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "ymaker\\translatable\\": "src/"
+                    "cannycookie\\translatable\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",

@@ -49,5 +49,5 @@ L’exemple d’utilisation du fournisseur pour la base des données:
 ### Le dépôt
 
 Ce n’est pas une option exigée. Elle est utilisée pour travailler avec la couche de données dans le contrôleur.
-Vous pouvez utiliser le défaut dépôt du modèle d’email `\ymaker\email\templates\repositories\EmailTemplatesRepository`
-ou appliquez un autre dépôt. Pour ça il faut appliquer l’interface de base `\ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface`.
+Vous pouvez utiliser le défaut dépôt du modèle d’email `\cannycookie\email\templates\repositories\EmailTemplatesRepository`
+ou appliquez un autre dépôt. Pour ça il faut appliquer l’interface de base `\cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface`.

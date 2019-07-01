@@ -13,11 +13,11 @@ Documentation is at [docs/guide/README.md](docs/guide/README.md).
 
 [![SymfonyInsight](https://insight.symfony.com/projects/01cd8c6b-428c-4fc1-927b-0cd28ec6d565/big.svg)](https://insight.symfony.com/projects/01cd8c6b-428c-4fc1-927b-0cd28ec6d565)
 
-[![Build Status](https://travis-ci.org/yiimaker/yii2-email-templates.svg?branch=master)](https://travis-ci.org/yiimaker/yii2-email-templates)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yiimaker/yii2-email-templates/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yiimaker/yii2-email-templates/?branch=master)
-[![Total Downloads](https://poser.pugx.org/yiimaker/yii2-email-templates/downloads)](https://packagist.org/packages/yiimaker/yii2-email-templates)
-[![Latest Stable Version](https://poser.pugx.org/yiimaker/yii2-email-templates/v/stable)](CHANGELOG.md)
-[![Latest Unstable Version](https://poser.pugx.org/yiimaker/yii2-email-templates/v/unstable)](CHANGELOG.md)
+[![Build Status](https://travis-ci.org/cannycookie/yii2-email-templates.svg?branch=master)](https://travis-ci.org/cannycookie/yii2-email-templates)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/cannycookie/yii2-email-templates/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cannycookie/yii2-email-templates/?branch=master)
+[![Total Downloads](https://poser.pugx.org/cannycookie/yii2-email-templates/downloads)](https://packagist.org/packages/cannycookie/yii2-email-templates)
+[![Latest Stable Version](https://poser.pugx.org/cannycookie/yii2-email-templates/v/stable)](CHANGELOG.md)
+[![Latest Unstable Version](https://poser.pugx.org/cannycookie/yii2-email-templates/v/unstable)](CHANGELOG.md)
 
 Installation
 ------------
@@ -27,13 +27,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-$ composer require yiimaker/yii2-email-templates
+$ composer require cannycookie/yii2-email-templates
 ```
 
 or add
 
 ```
-"yiimaker/yii2-email-templates": "~4.1"
+"cannycookie/yii2-email-templates": "~4.1"
 ```
 
 to the `require` section of your `composer.json`.
@@ -127,7 +127,7 @@ For information about contributing please read [CONTRIBUTING.md](CONTRIBUTING.md
 
 License
 -------
-[![License](https://poser.pugx.org/yiimaker/yii2-email-templates/license)](LICENSE)
+[![License](https://poser.pugx.org/cannycookie/yii2-email-templates/license)](LICENSE)
 
 This project is released under the terms of the BSD-3-Clause [license](LICENSE).
 

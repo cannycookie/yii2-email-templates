@@ -50,6 +50,6 @@ Backend модуль
 
 Это не обязательная опция, которыя используется в контроллере для работы с данными.
 
-Вы можете использовать стандартный репозиторий для работы с моделью `\ymaker\email\templates\repositories\EmailTemplatesRepository`
+Вы можете использовать стандартный репозиторий для работы с моделью `\cannycookie\email\templates\repositories\EmailTemplatesRepository`
 или реализовать свой репозиторий со своей моделью хранения данных,
-для этого вы должны реализовать базовый интерфейс - `\ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface`.
+для этого вы должны реализовать базовый интерфейс - `\cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface`.

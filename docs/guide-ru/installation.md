@@ -8,13 +8,13 @@
 Для этого запустите
 
 ```
-$ composer require yiimaker/yii2-email-templates
+$ composer require cannycookie/yii2-email-templates
 ```
 
 или добавьте
 
 ```
-"yiimaker/yii2-email-templates": "~4.1"
+"cannycookie/yii2-email-templates": "~4.1"
 ````
 
 в секцию `require` вашего `composer.json`.
@@ -31,7 +31,7 @@ $ composer require yiimaker/yii2-email-templates
         'class' => yii\console\controllers\MigrateController::class,
         'migrationNamespaces' => [
            // ...
-           'ymaker\email\templates\migrations',
+           'cannycookie\email\templates\migrations',
         ],
     ],
 ],
@@ -45,7 +45,7 @@ $ composer require yiimaker/yii2-email-templates
 'modules' => [
     // ...
     'email-templates' => [
-        'class' => \ymaker\email\templates\Module::class,
+        'class' => \cannycookie\email\templates\Module::class,
         'languageProvider' => [
             'class' => \motion\i18n\ConfigLanguageProvider::class,
             'languages' => [
@@ -70,7 +70,7 @@ $ composer require yiimaker/yii2-email-templates
 'components' => [
     // ...
     'templateManager' => [
-        'class' => \ymaker\email\templates\components\TemplateManager::class,
+        'class' => \cannycookie\email\templates\components\TemplateManager::class,
     ],
 ]
 ```

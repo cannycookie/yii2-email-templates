@@ -1,17 +1,17 @@
 <?php
 /**
- * @link https://github.com/yiimaker/yii2-email-templates
+ * @link https://github.com/cannycookie/yii2-email-templates
  * @copyright Copyright (c) 2017-2018 Yii Maker
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\email\templates\tests\unit\components;
+namespace cannycookie\email\templates\tests\unit\components;
 
 use Yii;
-use ymaker\email\templates\entities\EmailTemplateTranslation;
-use ymaker\email\templates\models\EmailTemplate as EmailTemplateModel;
-use ymaker\email\templates\tests\fixtures\EmailTemplateTranslationFixture;
-use ymaker\email\templates\tests\unit\DbTestCase;
+use cannycookie\email\templates\entities\EmailTemplateTranslation;
+use cannycookie\email\templates\models\EmailTemplate as EmailTemplateModel;
+use cannycookie\email\templates\tests\fixtures\EmailTemplateTranslationFixture;
+use cannycookie\email\templates\tests\unit\DbTestCase;
 
 /**
  * Test case for template manager.
@@ -22,7 +22,7 @@ use ymaker\email\templates\tests\unit\DbTestCase;
 class TemplateManagerTest extends DbTestCase
 {
     /**
-     * @var \ymaker\email\templates\components\TemplateManager
+     * @var \cannycookie\email\templates\components\TemplateManager
      */
     private $manager;
     /**
