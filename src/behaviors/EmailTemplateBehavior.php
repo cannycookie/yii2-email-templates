@@ -1,16 +1,16 @@
 <?php
 /**
- * @link https://github.com/yiimaker/yii2-email-templates
+ * @link https://github.com/cannycookie/yii2-email-templates
  * @copyright Copyright (c) 2017-2018 Yii Maker
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\email\templates\behaviors;
+namespace cannycookie\email\templates\behaviors;
 
 use yii\base\Behavior;
 use yii\db\BaseActiveRecord;
 use yii\helpers\Json;
-use ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface;
+use cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface;
 
 /**
  * Behavior for appending of email templates to ActiveRecord models.
@@ -42,7 +42,7 @@ class EmailTemplateBehavior extends Behavior
      */
     private $_languageAttribute = 'language';
     /**
-     * @var \ymaker\email\templates\entities\EmailTemplate
+     * @var \cannycookie\email\templates\entities\EmailTemplate
      */
     private $_template;
 
@@ -192,7 +192,7 @@ class EmailTemplateBehavior extends Behavior
     }
 
     /**
-     * @return \ymaker\email\templates\entities\EmailTemplateTranslation
+     * @return \cannycookie\email\templates\entities\EmailTemplateTranslation
      */
     private function getTranslation()
     {

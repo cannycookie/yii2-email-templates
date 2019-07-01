@@ -1,16 +1,16 @@
 <?php
 /**
- * @link https://github.com/yiimaker/yii2-email-templates
+ * @link https://github.com/cannycookie/yii2-email-templates
  * @copyright Copyright (c) 2017-2018 Yii Maker
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\email\templates\components;
+namespace cannycookie\email\templates\components;
 
 use Yii;
 use yii\base\BaseObject;
-use ymaker\email\templates\models\EmailTemplate;
-use ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface;
+use cannycookie\email\templates\models\EmailTemplate;
+use cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface;
 
 /**
  * This class provides methods for making work with email template easily in your code.

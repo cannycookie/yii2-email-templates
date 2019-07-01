@@ -4,7 +4,7 @@
  * Renders form for Gii generator.
  *
  * @var \yii\widgets\ActiveForm $form
- * @var \ymaker\email\templates\gii\Generator $generator
+ * @var \cannycookie\email\templates\gii\Generator $generator
  *
  * @author Vladimir Kuprienko <vldmr.kuprienko@gmail.com>
  * @since 1.1

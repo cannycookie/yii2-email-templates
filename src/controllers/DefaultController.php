@@ -1,16 +1,16 @@
 <?php
 /**
- * @link https://github.com/yiimaker/yii2-email-templates
+ * @link https://github.com/cannycookie/yii2-email-templates
  * @copyright Copyright (c) 2017-2018 Yii Maker
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\email\templates\controllers;
+namespace cannycookie\email\templates\controllers;
 
 use Yii;
 use yii\web\Controller;
-use ymaker\email\templates\Module as TemplatesModule;
-use ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface;
+use cannycookie\email\templates\Module as TemplatesModule;
+use cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface;
 
 /**
  * CRUD controller for backend.

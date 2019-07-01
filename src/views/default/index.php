@@ -5,7 +5,7 @@ use yii\grid\GridView;
 use yii\grid\SerialColumn;
 use yii\helpers\Html;
 use yii\helpers\Url;
-use ymaker\email\templates\Module as TemplatesModule;
+use cannycookie\email\templates\Module as TemplatesModule;
 
 /**
  * View file for CRUD backend controller.

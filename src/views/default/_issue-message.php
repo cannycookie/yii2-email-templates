@@ -1,6 +1,6 @@
 <?php
 
-use ymaker\email\templates\Module as TemplatesModule;
+use cannycookie\email\templates\Module as TemplatesModule;
 
 /**
  * Partial view file with message for developers.

@@ -1,18 +1,18 @@
 <?php
 /**
- * @link https://github.com/yiimaker/yii2-email-templates
+ * @link https://github.com/cannycookie/yii2-email-templates
  * @copyright Copyright (c) 2017-2018 Yii Maker
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\email\templates\models;
+namespace cannycookie\email\templates\models;
 
 use yii\base\BaseObject;
 
 /**
  * Model class for template manager.
  *
- * @see \ymaker\email\templates\components\TemplateManager
+ * @see \cannycookie\email\templates\components\TemplateManager
  *
  * @property string $subject
  * @property string $body
@@ -80,7 +80,7 @@ class EmailTemplate extends BaseObject
     /**
      * Build email template from entity.
      *
-     * @param \ymaker\email\templates\entities\EmailTemplateTranslation $entity
+     * @param \cannycookie\email\templates\entities\EmailTemplateTranslation $entity
      *
      * @return EmailTemplate
      */
@@ -92,7 +92,7 @@ class EmailTemplate extends BaseObject
     /**
      * Build email templates array from entities.
      *
-     * @param \ymaker\email\templates\entities\EmailTemplateTranslation[] $entities
+     * @param \cannycookie\email\templates\entities\EmailTemplateTranslation[] $entities
      *
      * @return EmailTemplate[]
      */

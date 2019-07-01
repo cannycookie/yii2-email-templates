@@ -1,16 +1,16 @@
 <?php
 /**
- * @link https://github.com/yiimaker/yii2-email-templates
+ * @link https://github.com/cannycookie/yii2-email-templates
  * @copyright Copyright (c) 2017-2018 Yii Maker
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\email\templates\entities;
+namespace cannycookie\email\templates\entities;
 
 use Yii;
 use yii\db\ActiveRecord;
-use ymaker\email\templates\queries\EmailTemplateQuery;
-use ymaker\translatable\TranslatableBehavior;
+use cannycookie\email\templates\queries\EmailTemplateQuery;
+use cannycookie\translatable\TranslatableBehavior;
 
 /**
  * This is the model class for table "{{%email_template}}".

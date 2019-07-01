@@ -3,13 +3,13 @@
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\DetailView;
-use ymaker\email\templates\Module as TemplatesModule;
+use cannycookie\email\templates\Module as TemplatesModule;
 
 /**
  * View file for CRUD backend controller.
  *
  * @var \yii\web\View $this
- * @var \ymaker\email\templates\entities\EmailTemplate $model
+ * @var \cannycookie\email\templates\entities\EmailTemplate $model
  *
  * @author Vladimir Kuprienko <vldmr.kuprienko@gmail.com>
  * @since 1.0

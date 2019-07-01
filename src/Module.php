@@ -1,16 +1,16 @@
 <?php
 /**
- * @link https://github.com/yiimaker/yii2-email-templates
+ * @link https://github.com/cannycookie/yii2-email-templates
  * @copyright Copyright (c) 2017-2018 Yii Maker
  * @license BSD 3-Clause License
  */
 
-namespace ymaker\email\templates;
+namespace cannycookie\email\templates;
 
 use Yii;
 use yii\base\InvalidConfigException;
-use ymaker\email\templates\repositories\EmailTemplatesRepository;
-use ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface;
+use cannycookie\email\templates\repositories\EmailTemplatesRepository;
+use cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface;
 use motion\i18n\LanguageProviderInterface;
 
 /**
@@ -27,12 +27,12 @@ class Module extends \yii\base\Module
     /**
      * {{@inheritdoc}}
      */
-    public $controllerNamespace = 'ymaker\email\templates\controllers';
+    public $controllerNamespace = 'cannycookie\email\templates\controllers';
 
     /**
      * Service for controller.
      *
-     * @see \ymaker\email\templates\repositories\EmailTemplatesRepositoryInterface
+     * @see \cannycookie\email\templates\repositories\EmailTemplatesRepositoryInterface
      *
      * @var array
      *
@@ -132,6 +132,6 @@ class Module extends \yii\base\Module
      */
     final public static function getRepoUrl()
     {
-        return 'https://github.com/yiimaker/yii2-email-templates';
+        return 'https://github.com/cannycookie/yii2-email-templates';
     }
 }
